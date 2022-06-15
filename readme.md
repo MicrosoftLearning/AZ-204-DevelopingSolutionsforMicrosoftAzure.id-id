@@ -1,35 +1,54 @@
-# INF99X: Sample Course
+---
+ms.openlocfilehash: a0384c399e26652e2516e9e6a16b6b892cd0e8b0
+ms.sourcegitcommit: 59c540737d0d7c14e6b56805afed30f1df1561f8
+ms.translationtype: HT
+ms.contentlocale: id-ID
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "145196244"
+---
+# <a name="az-204-developing-solutions-for-microsoft-azure"></a>AZ-204: Mengembangkan solusi untuk Microsoft Azure
 
-- **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
-- **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
-- **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
+**Semua petunjuk lab diperbarui pada 15/10/2021.** Kami akan menutup semua masalah yang saat ini terbuka dan PR serta mendorong semua orang untuk mengulas instruksi baru dan kemudian mengirimkan perubahan baru ke depannya.
 
-## What are we doing?
+> **Catatan**: Siswa harus diarahkan untuk menyinkronkan repositori jika mereka tidak diberikan AllFiles melalui penyedia hosting lab. 
 
-- To support this course, we will need to make frequent updates to the course content to keep it current with the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
+- **Arahkan siswa** ke [https://aka.ms/az204labs](https://aka.ms/az204labs) untuk daftar petunjuk lab yang mudah digunakan.
+- **Apakah Anda seorang MCT?** - Lihat [Panduan Pengguna GitHub untuk MCT](https://microsoftlearning.github.io/MCT-User-Guide/) kami
+- **Perlu instruksi membangun lab secara manual?** - Instruksi tersedia di repositori [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 
 
-- We hope that this brings a sense of collaboration to the labs like we've never had before - when Azure changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
+## <a name="security-issue---february-2022"></a>Masalah Keamanan - Februari 2022
 
-## How should I use these files relative to the released MOC files?
+Beberapa lab pelatihan Azure menginstruksikan siswa untuk menggunakan nama pengguna dan kata sandi tertentu. Aktor jahat terus-menerus memindai mesin virtual dan mencoba masuk menggunakan kredensial itu.
+Saat mereka masuk, mereka menggunakan mesin untuk penambangan kripto, dan berpotensi menggunakannya untuk aktivitas lain.
 
-- The instructor handbook and PowerPoints are still going to be your primary source for teaching the course content.
+**Perbaikan**: Siswa harus diinstruksikan untuk menggunakan kata sandi yang mereka pilih sendiri. Siswa tidak boleh menggunakan kata sandi dalam instruksi lab. Langkah-langkah lab akan diperbarui minggu ini untuk menghapus kata sandi. 
 
-- These files on GitHub are designed to be used in conjunction with the student handbook, but are in GitHub as a central repository so MCTs and course authors can have a shared source for the latest lab files.
+## <a name="what-are-we-doing"></a>Apa yang kami lakukan?
 
-- It will be recommended that for every delivery, trainers check GitHub for any changes that may have been made to support the latest Azure services, and get the latest files for their delivery.
+- Untuk mendukung kursus ini, kami perlu sering memperbarui konten kursus agar tetap terbaru dengan layanan Azure yang digunakan dalam kursus.  Kami mempublikasikan petunjuk lab dan file lab di GitHub guna memungkinkan kontribusi terbuka antara penulis kursus dan MCT agar konten tetap terbaru dengan perubahan di platform Azure.
 
-## What about changes to the student handbook?
+- Kami berharap hal ini dapat menghadirkan bentuk kolaborasi ke lab yang belum pernah kami alami sebelumnya - saat Azure berubah dan Anda menemukannya pertama kali saat penyajian langsung, silakan melakukan peningkatan langsung di sumber lab. 
 
-- We will review the student handbook on a quarterly basis and update through the normal MOC release channels as needed.
+## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>Bagaimana cara menggunakan file-file ini relatif terhadap file MOC yang dirilis?
 
-## How do I contribute?
+- Buku pegangan instruktur dan PowerPoint masih akan menjadi sumber utama Anda untuk mengajarkan konten kursus.
 
-- Any MCT can submit a pull request to the code or content in the GitHub repro, Microsoft and the course author will triage and include content and lab code changes as needed.
+- File-file di GitHub ini dirancang untuk digunakan bersama dengan buku pegangan siswa, tetapi berada di GitHub sebagai repositori pusat sehingga MCT dan penulis kursus dapat memiliki sumber bersama untuk file lab terbaru.
 
-- You can submit bugs, changes, improvement and ideas.  Find a new Azure feature before we have?  Submit a new demo!
+- Pada setiap penyajian, sebaiknya pelatih memeriksa GitHub untuk setiap perubahan yang mungkin telah dilakukan guna mendukung layanan Azure terbaru, dan mendapatkan file terbaru untuk penyajiannya.
 
-## Notes
+## <a name="what-about-changes-to-the-student-handbook"></a>Bagaimana dengan perubahan pada buku pegangan siswa?
 
-### Classroom Materials
+- Kami akan meninjau buku pegangan siswa setiap tiga bulan dan memperbarui melalui saluran rilis MOC normal sesuai kebutuhan.
 
-It is strongly recommended that MCTs and Partners access these materials and in turn, provide them separately to students.  Pointing students directly to GitHub to access Lab steps as part of an ongoing class will require them to access yet another UI as part of the course, contributing to a confusing experience for the student. An explanation to the student regarding why they are receiving separate Lab instructions can highlight the nature of an always-changing cloud-based interface and platform. Microsoft Learning support for accessing files on GitHub and support for navigation of the GitHub site is limited to MCTs teaching this course only.
+## <a name="how-do-i-contribute"></a>Bagaimana cara saya berkontribusi?
+
+- Setiap MCT dapat mengirimkan permintaan penarikan kode atau konten di repro GitHub, Microsoft dan penulis kursus akan melakukan triase serta menyertakan konten dan perubahan kode lab sesuai kebutuhan.
+
+- Anda dapat mengirimkan bug, perubahan, penyempurnaan, dan ide.  Menemukan fitur Azure baru sebelum kami?  Kirimkan demo baru!
+
+## <a name="notes"></a>Catatan
+
+### <a name="classroom-materials"></a>Materi Kelas
+
+Sebaiknya MCT dan Mitra mengakses materi ini dan pada gilirannya, memberikan materi ini secara terpisah kepada siswa.  Mengarahkan siswa secara langsung ke GitHub untuk mengakses langkah-langkah Lab sebagai bagian dari kelas yang sedang berlangsung akan mengharuskan mereka untuk mengakses UI lain sebagai bagian dari kursus, yang berkontribusi pada pengalaman yang membingungkan bagi siswa. Menjelaskan kepada siswa tentang mengapa mereka menerima instruksi Lab terpisah dapat menyoroti sifat antarmuka dan platform berbasis cloud yang selalu berubah. Dukungan Microsoft Learning untuk mengakses file di GitHub dan dukungan untuk navigasi situs GitHub terbatas pada MCT yang mengajarkan kursus ini saja.
