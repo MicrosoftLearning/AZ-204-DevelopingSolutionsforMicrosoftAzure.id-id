@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: a0384c399e26652e2516e9e6a16b6b892cd0e8b0
-ms.sourcegitcommit: 59c540737d0d7c14e6b56805afed30f1df1561f8
+ms.openlocfilehash: 40d663462e7e48bf5baeb118e1da99d4ebf89c86
+ms.sourcegitcommit: b3c9969e988713afd5bfcfa551d5986d914edf2e
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "145196244"
+ms.lasthandoff: 06/23/2022
+ms.locfileid: "146565020"
 ---
 # <a name="az-204-developing-solutions-for-microsoft-azure"></a>AZ-204: Mengembangkan solusi untuk Microsoft Azure
 
@@ -15,6 +15,7 @@ ms.locfileid: "145196244"
 - **Arahkan siswa** ke [https://aka.ms/az204labs](https://aka.ms/az204labs) untuk daftar petunjuk lab yang mudah digunakan.
 - **Apakah Anda seorang MCT?** - Lihat [Panduan Pengguna GitHub untuk MCT](https://microsoftlearning.github.io/MCT-User-Guide/) kami
 - **Perlu instruksi membangun lab secara manual?** - Instruksi tersedia di repositori [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 
+- Menambahkan [proyek](https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure/projects/1) untuk melacak progres masalah/PR.
 
 ## <a name="security-issue---february-2022"></a>Masalah Keamanan - Februari 2022
 
